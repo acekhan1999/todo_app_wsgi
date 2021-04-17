@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Todo</title>
+
+</head>
+
+<body>
+    <h1>{fullname}'s Todos</h1>
+    <h2>Create a todo</h2>
+    <form enctype="application/x-www-form-urlencoded" method="post">
+        <input type="text" name="todo_subject" placeholder="Enter todo subject...">
+        <textarea name="todo_desc" id="todo_desc" cols="30" rows="10"></textarea>
+        <label for="due_date">Due Date</label>
+        <input type="date" name="due_date" id="due_date">
+        <input type="checkbox" name="priority" value="True">
+        <label for="priority">Priority</label>
+        <input type="submit" value="Submit Todo">
+    </form>
+</body>
+
+</html>
