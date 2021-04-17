@@ -1,4 +1,8 @@
-#build docker file
+# to clone this app
+
+git clone https://github.com/acekhan1999/todo_app_wsgi.git
+
+# build docker file
 
 docker build -t app .
 
